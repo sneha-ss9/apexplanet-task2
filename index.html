@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-title">
+            <h2>Task 2 💗</h2>
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#todo">To-Do</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h1>Contact Form with Validation & Dynamic To-Do List</h1>
+
+        <!-- Hero Image -->
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900" alt="Web Development">
+
+        <!-- Contact Form -->
+        <div class="form-section" id="contact">
+            <h2>Contact Us</h2>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <textarea id="message" placeholder="Enter Your Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- To-Do List -->
+        <div class="todo-section" id="todo">
+            <h2>My To-Do List</h2>
+
+            <input type="text" id="taskInput" placeholder="Add a task">
+            <button onclick="addTask()">Add Task</button>
+
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by Sneha | ApexPlanet Task 2 🚀</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
